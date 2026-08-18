@@ -1,0 +1,24 @@
+{
+  "name": "smart-validator",
+  "version": "1.0.0",
+  "description": "A lightweight JavaScript validation package for email, phone, and password validation.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "vitest",
+    "test:run": "vitest run"
+  },
+  "keywords": [
+    "validation",
+    "validator",
+    "email",
+    "phone",
+    "password",
+    "javascript"
+  ],
+  "author": "Asrar Fedlu Kedir",
+  "license": "MIT",
+  "devDependencies": {
+    "vitest": "^4.1.10"
+  }
+}
