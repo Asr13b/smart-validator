@@ -16,52 +16,51 @@ A lightweight JavaScript validation package for common form validation tasks.
 npm install smart-validator
 ```
 
-Usage
-import {
-isEmail,
-isPhone,
-isStrongPassword
-} from "smart-validator";
+## Usage
+
+```js
+import { isEmail, isPhone, isStrongPassword } from "smart-validator";
 
 console.log(isEmail("hello@gmail.com"));
 console.log(isPhone("+251911234567"));
 console.log(isStrongPassword("Hello123!"));
-API
-isEmail(value)
+```
 
-Returns true for a valid email format.
+## API
 
-isPhone(value)
+### `isEmail(value)`
 
-Returns true for a valid phone number format.
+Returns `true` for a valid email format.
 
-isStrongPassword(value)
+### `isPhone(value)`
 
-Checks whether the password meets the package's strength requirements.
+Returns `true` for a valid phone number format.
 
-Development
+### `isStrongPassword(value)`
 
-Clone the repository and install dependencies:
+Returns `true` when the password meets the package's strength requirements.
 
+## Development
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Asr13b/smart-validator.git
+cd smart-validator
+```
+
+Install dependencies:
+
+```bash
 npm install
+```
 
 Run tests:
 
+```bash
 npm run test:run
-License
+```
+
+## License
 
 MIT
-
-### One important point
-
-Because you haven't published it yet, don't claim that:
-
-```bash
-npm install smart-validator
-
-currently works from the public npm registry.
-
-The README can describe the intended published usage, but until you publish it, your actual testing is:
-
-npm install ../smart-validator
-```
